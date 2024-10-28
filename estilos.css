@@ -1,0 +1,205 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #A020F0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Estilo del título */
+.div-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d9534f; /* Color rojo suave */
+}
+
+/* Estilos para el formulario */
+.formulario {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los inputs y botones */
+input[type="text"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #d9534f; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c9302c; /* Color al pasar el mouse */
+}
+
+/* Estilos para la lista de panes */
+.lista {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Estilo de cada pan en la lista */
+.pan {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pan:last-child {
+    margin-bottom: 0; /* Elimina el margen inferior del último elemento */
+}
+/* Estilos para el formulario de clientes */
+.formulario-clientes {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.formulario-clientes h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los inputs y botón para el formulario de clientes */
+.formulario-clientes input[type="text"],
+.formulario-clientes input[type="number"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formulario-clientes button {
+    background-color: #d9534f; /* Mismo color que el botón de agregar */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-clientes button:hover {
+    background-color: #c9302c; /* Color al pasar el mouse */
+}
+
+/* Estilos para la lista de clientes */
+.lista-clientes {
+    flex: 1;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.lista-clientes h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilos para la tabla de clientes */
+.lista-clientes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lista-clientes th,
+.lista-clientes td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.lista-clientes th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.lista-clientes tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+table {
+    width: 100%;
+    text-align: center;
+  }
+  .inventory-banner {
+    background-color: #6a0dad; /* Color morado */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  table img {
+    width: 100px;  /* Ajusta el tamaño de las imágenes según prefieras */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  table p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .imagen-halloween {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: 250px;
+    border-radius: 10px; /* Opcional: redondear bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: sombra */
+}
+  

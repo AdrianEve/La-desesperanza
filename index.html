@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version 1 La desesperanza</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="div-titulo">
+        <h4>Panaderia</h4>
+        <h1>La desesperanza</h1>
+        <img src="halloween.jpg" alt="Halloween" class="imagen-halloween">
+        <br>
+        <h2>Inventario</h2>
+    </div>
+
+    <div class="contenedor">
+        <div class="formulario">
+            <h2>Formulario</h2>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="nombre del pan">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+
+        <div class="lista">
+            <h2>Lista de Productos</h2>
+            <table id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyProductos">
+                    <!-- Los productos se agregarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Tabla con imágenes de productos -->
+    <div class="contenedor-productos">
+        <table class="table table-bordered mt-3">
+            <tr>
+                <td>
+                    <img src="pan_muerto.jpg" alt="Pan de Muerto" class="img-fluid">
+                    <p>Pan de Muerto</p>
+                </td>
+                <td>
+                    <img src="turin_pan.jpg" alt="Pan de Muerto Relleno de Chocolate" class="img-fluid">
+                    <p>Pan de Muerto Relleno de Chocolate Turín</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="dona.jpg" alt="Dona" class="img-fluid">
+                    <p>Dona</p>
+                </td>
+                <td>
+                    <img src="calabaza.jpg" alt="Panqué de Calabaza" class="img-fluid">
+                    <p>Panqué de Calabaza</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="calaverita.jpg" alt="Calaverita de Chocolate" class="img-fluid">
+                    <p>Calaverita de Chocolate</p>
+                </td>
+                <td>
+                    <img src="mantecada.jpg" alt="Mantecada de Vainilla" class="img-fluid">
+                    <p>Mantecada de Vainilla</p>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    <br>
+    <h2>Historial de Clientes</h2>
+    <div class="formulario-clientes">
+        <h2>Agregar Cliente</h2>
+        <form action="#" id="formularioClientes">
+            <input type="text" id="nombreCliente" placeholder="Nombre del cliente" required>
+            <input type="text" id="productoComprado" placeholder="Producto comprado" required>
+            <input type="number" id="precio" placeholder="Precio" step="0.01" required>
+            <button type="submit">Agregar Cliente</button>
+        </form>
+    </div>
+    <div class="lista-clientes">
+        <h2>Lista de Clientes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Producto Comprado</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyClientes"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
